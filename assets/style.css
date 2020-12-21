@@ -114,6 +114,9 @@ p,h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .
     .font-50{
         font-size: 30px;
     }
+    .little-3{
+        height: 70%;
+    }
 }
 
 
@@ -132,5 +135,12 @@ p,h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .
     .little{
         width: 50%;
         height: 50%;
+    }
+    .little-2{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .little-4{
+        height: 40%;
     }
 }
