@@ -104,18 +104,206 @@ p,h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .
     border-radius: 10px;
 }
 
+.for-slick-slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.for-slick-slider .items{
+    width: 33%;
+    height: 33%;
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.for-slick-slider .items img{
+    width: 100%;
+    height: 100%;
+}
+
+.multiple-items{
+    width: 100% ;
+}
+
+.next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.br-1{
+    border-right: 1px solid #dadada;
+}
+
+.img-vektor-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.for-slick-slider02{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.for-slick-slider02 .items02{
+    width: 37%;
+    height: 37%;
+    padding: 30px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.for-slick-slider02 .items02 .wrap-img{
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.for-slick-slider02 .items02 .wrap-img img{
+    width: 60%;
+    height: 60%;
+
+}
+
+.multiple-items02{
+    width: 80% !important;
+}
+
+.next02{
+    position: absolute;
+    right: 59px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next02 img{
+    width: 100% ;
+}
+
+.slick-arrow.slick-hidden{
+    display: block !important;
+}
+
+.card03{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.card03 img{
+    min-width: 61px;
+    width: 61px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: red;
+}
+
+.card04{
+    background: linear-gradient(100deg, #fd97b7 0%, #ff719d 91.29%) ;
+    border-radius: 50px;
+}
+
+.card04 .p-20{
+    padding: 100px 50px;
+}
+
+.card04 .img-people{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 139%;
+}
+
+.wrap-input02{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.wrap-input02 .form-control{
+    position: relative;
+    border-radius: 28px;
+    padding-left: 50px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.wrap-input02 .form-control:focus{
+    box-shadow: none !important;
+}
+
+.wrap-input02 img{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title{
+    height: 70px;
+}
+
+.wrap-input02 .btn{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 24px;
+    color: white;
+    background-color: #183b56 !important;
+}
+
+@media (max-width: 767.98px) {
+    .multiple-items p{
+        display: none
+    }
+}
+
 @media (max-width: 991.98px) {
     .nav-item:hover{
         padding-left: 10px;
     }
     .font-36{
-        font-size: 26px;
+        font-size: 26px;12131
     }
     .font-50{
         font-size: 30px;
     }
     .little-3{
         height: 70%;
+    }
+    .br-1{
+        display: none;
     }
 }
 
@@ -132,6 +320,12 @@ p,h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .
         width: 31px;
         min-width: 31px;
     }
+
+    .for-slick-slider02 .items02 .wrap-img img{
+        width: 80%;
+        height: 40%;
+    }
+
     .little{
         width: 50%;
         height: 50%;
@@ -142,5 +336,21 @@ p,h1, h2, h3, h4, h5, h6 .h1, .h2, .h3, .h4, .h5, .h6, .display-1, .display-2, .
     }
     .little-4{
         height: 40%;
+    }
+    .next02{
+        right: 0%;
+    }
+    .next02 img{
+        width: 50% !important;
+        height: 50% !important;
+        position: relative;
+        left: 46px;
+    }
+    .wrap-img p{
+        display: none;
+    }
+
+    .wrap-input02 .btn{
+        top: 161%;
     }
 }
